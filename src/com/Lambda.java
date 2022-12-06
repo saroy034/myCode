@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * 
+ * @author SAROY1
+ *
+ */
 class Product implements Comparable<Product> {
 	int id;
 	String name;
@@ -24,6 +29,11 @@ class Product implements Comparable<Product> {
 
 }
 
+/**
+ * 
+ * @author SAROY1
+ *
+ */
 public class Lambda {
 	public static void main(String[] args) {
 		List<Product> list = new ArrayList<Product>();
